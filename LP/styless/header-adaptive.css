@@ -1,0 +1,281 @@
+/*------------------------------------ @media Header---------------- */
+/* разрешение экрана идет от ширины 1281-до 1799    а высота 1245 */
+
+
+
+@media screen and (min-height:1245px) {
+header{height: 70vh;}
+.box{width: 29%;background-color: white;padding: 30px;}
+.box-text{width: 100%;padding: 40px 0px 40px 70px;}}
+
+
+@media screen and (min-height:1360px) {
+.navbar{height: 10vh;}
+header{height: 60vh;}
+.box{width: 29%;background-color: white;padding: 50px;}
+.box-text{width: 100%;padding: 40px 0px 40px 70px;}
+.image-box{padding-top: 200px;}
+}
+
+@media screen and (min-height:2000px) {
+    .navbar{height: 10vh;}
+    header{height: 45vh;}
+    .box{width: 25%;background-color: white;padding: 25px;}
+    .box-text{width: 100%;padding: 40px 0px 40px 70px;}
+    .image-box{padding-top: 250px;}
+    }
+    
+
+/*-------------------------- @media Header for PC 1600 max-width ---------------------------------------------- */
+
+/* @media screen and (min-width:1800px) {
+.container-1{margin:0 auto;max-width: 1500px;overflow: hidden;}
+header{width: 100%;height: 100vh;background-size: auto 100%;}
+.image-box{display: flex;justify-content: flex-end;align-items: center;padding-top: 100px;}
+.title-box{font-size: 45px; width: 60%;}
+.box{width: 31%;background-color: white;padding: 50px;}
+.box-text{width: 100%;padding: 40px 0px 40px 35px;}} */
+
+@media screen and (max-width:1280px) {
+header{width: 100%;height: 100vh;}
+.title-box{font-size: 45px; width: 60%;}
+.image-box{display: flex;justify-content: flex-end;align-items: center;padding-top: 100px;}
+.box{width: 35%;background-color: white;padding: 50px;}
+.box-text{width: 100%;padding: 40px 0px 40px 35px;}}
+@media screen and (max-width:1112px) {
+.title-box{font-size: 42px; width: 60%;}
+.box{width: 35%;background-color: white;padding: 35px;}
+.box-text{width: 100%;padding: 40px 0px 40px 35px;}}
+    
+@media screen and (max-width:1024px) {
+.title-box{font-size: 42px; width: 60%;}
+.box{width: 35%;background-color: white;padding: 35px;}
+.box-text{width: 100%;padding: 40px 0px 40px 35px;}}
+
+/* @media screen and (min-width:1899px) and (max-height:777px){
+    .container-1{margin:0 auto;max-width: 1100px;overflow: hidden;}
+    header{width: 100%;height: 100vh;background-size: auto 100%;}
+    .image-box{display: flex;justify-content: center;align-items: center;padding-right: 150px;}
+    } */
+    
+/*-------------------------- @media Header for 950 max-width White-Block-Down------------------------------------------------ */
+
+@media screen and (max-width:950px) {
+.title-box{font-size: 36px; width: 100%;text-align: center;}
+.box{width: 65%;background-color: white;height: 42%;}
+.box-text{width: 100%;padding: 0px 0px 100px 0px;text-align: center;}
+.image-box{display: flex;justify-content: center;align-items: flex-end;height: 100%;}
+header{width: 100%;height: 90vh;}}
+
+/* --------------------------white-Block ------------------ */
+
+@media screen and (min-width:1900px) { 
+.image-box{padding-top: 150px;}
+.title-box{font-size: 60px; width: 60%;font-family: 'Raleway', sans-serif;color:#373f48;letter-spacing: 5px; }
+.box{width: 33%;background-color: white;padding: 70px;}}
+
+/*------------------------------------- for Container ---------------------------------------------- */
+
+@media screen and (min-width:500px){.container{padding: 0 50px;}}
+@media screen and (max-width:499px){.container{padding: 0 20px;}}
+@media screen and (min-width:1599px){.container{margin:0 auto;max-width: 1700px;overflow: hidden;}}
+@media screen and (min-width:1750px){.container{margin:0 auto;max-width: 1350px;overflow: hidden;}}
+@media screen and (min-width:1900px) {.container{margin:0 auto;max-width: 1800px;overflow: hidden;}}
+
+/*------------------------------------- for Burger ---------------------------------------------- */
+
+@media screen and (max-width: 950px) {
+li{font-size: 14px;}}
+.navbar.show .line1 {transform: translate(-10px) rotate(45deg) translate(15px);}.navbar.show .line2 {opacity: 0;}
+.navbar.show .line3 {transform: translate(-10px) rotate(-45deg) translate(15px);}
+.navbar.show #nav-menu {transform: translateX(0%);}
+@media screen and (max-width: 950px) {
+.burger {display: block;cursor: pointer;}
+.logo{display: block;}
+#nav-menu {
+position: fixed;
+right: 0;
+bottom: 0;
+padding-top: 200px;
+width: 70%;
+display: block;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+background-image: url(../images/IMG_3597.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+transform: translateX(100%);
+transition: transform 1s ease;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);}
+li a{margin: 20px 0;font-size: 20px;}
+.btn-parent{width: 100%;text-align: center;margin-top: 20px;}
+.btn-links{width: 100%;font-size: 19px;}}  
+
+/*----------------------------------@media(540px) PHONE-------------------------------------- */
+
+/*---------------------------------- media-header---------------- */
+
+@media screen and (max-width:540px) {
+header{height: 60vh;}
+.logo{font-size: 26px;}
+.under-logo{font-size: 10px;}
+.navbar{height: 12vh;}
+.container{padding: 0 20px;}
+.line{width: 23px; margin: 0.3rem 0;}
+.icons-links{top: 25%;padding: 0;}
+.icons-links i{font-size: 15px;padding-top: 9px;}
+.box{width: 65%;height: 28%;padding-top: 30px;}
+.box-text{width: 100%;height: 100%;padding: 0;}
+.title-box{font-size: 26px;width: 100%;text-align: center;}
+.box-text-3{font-size: 20px;text-align: center;}
+.image-box{height: 100vh;display: flex;justify-content: center;align-items: center;}
+}
+        
+@media screen and (max-width:509px) {
+.title-box{font-size: 26px;width: 100%;text-align: center;}
+.box-text-3{font-size: 18px;text-align: center;}
+.box{width: 80%;height: 28%;padding-top: 30px;}
+}
+@media screen and (max-width:465px) {
+.box-text{width: 100%;height: 100%;padding: 0;}
+.title-box{font-size: 25px;width: 100%;text-align: center;}
+.box-text-3{font-size: 18px;text-align: center;}
+.image-box{height: 100vh;display: flex;justify-content: center;align-items: center;}
+}
+@media screen and (max-width:444px) {
+.box-text{width: 100%;height: 100%;padding: 0;}
+.title-box{font-size: 24px;width: 100%;text-align: center;}
+.box-text-3{font-size: 17px;text-align: center;}
+.image-box{height: 100vh;display: flex;justify-content: center;align-items: center;}
+}
+@media screen and (max-width:425px) {
+.logo{font-size: 24px;}
+.under-logo{font-size: 10px;}
+.box-text{width: 100%;height: 100%;padding: 0;}
+.title-box{font-size: 24px;width: 100%;text-align: center;}
+.box-text-3{font-size: 17px;text-align: center;}
+.image-box{height: 100vh;display: flex;justify-content: center;align-items: center;}
+}
+@media screen and (max-width:414px) {
+.logo{font-size: 24px;}
+.under-logo{font-size: 11px;}
+.box-text{width: 100%;height: 100%;padding:0 40px;}
+.title-box{font-size: 24px;width: 100%;text-align: center;}
+.box-text-3{font-size: 17px;text-align: center;}
+.image-box{height: 100vh;display: flex;justify-content: center;align-items: center;margin-top:15px;}
+.box{width: 70%;padding: 30px 0 20px 0;height: 40%;}
+.icons-links i{font-size: 11px;padding-top: 9px;}
+}
+@media screen and (max-width:375px) {
+.logo{font-size: 24px;}
+.under-logo{font-size: 11px;}
+.box-text{width: 100%;height: 100%;padding:0 40px;}
+.title-box{font-size: 24px;width: 100%;text-align: center;}
+.box-text-3{font-size: 17px;text-align: center;}
+.image-box{height: 100vh;display: flex;justify-content: center;align-items: center;margin-top: 5px;}
+.box{width: 70%;padding: 30px 0 0 0;height: 40%;}
+li a{margin: 15px 0;font-size: 15px;}}
+
+
+@media screen and (max-width:320px) {
+.logo{font-size: 22px;}
+.under-logo{font-size: 10px;}
+.box-text{width: 100%;height: 100%;padding:0 40px;}
+.title-box{font-size: 20px;width: 100%;text-align: center;}
+.box-text-3{font-size: 14px;text-align: center;}
+.image-box{height: 90vh;display: flex;justify-content: center;align-items: center;margin-top: 5px;}
+.box{width: 70%;padding: 30px 0 0 0;height: 40%;}
+#nav-menu {position: fixed;right: 0;bottom: 0;padding-top: 150px;width: 70%;}
+li a{margin: 15px 0;font-size: 15px;}}
+/* ------------------------------------- gorizont Iphone-8-------------------------------------------- */
+
+/* -------------------------------------header gorizont-------------------------------------------- */
+	
+@media screen and (max-width:667px)and (max-height:375px)   {
+header{height: 75vh;}
+.logo{font-size: 20px;}
+.under-logo{font-size: 10px;}
+.navbar{height: 18vh;}
+.container{padding: 0 20px;}
+.line{width: 26px; margin: 0.4rem 0;}
+.icons-links{top: 29%;}
+.icons-links i{font-size: 11px;padding-top: 11px;}
+.box{width: 50%;height: 30%;padding-top: 0px;}
+.box-text{width: 100%;height: 100%;padding:20px 0 0px 0;}
+.title-box{font-size: 20px;width: 100%;text-align: center;}
+.box-text-3{font-size: 15px;text-align: center;}
+.image-box{height: 97vh;display: flex;justify-content: center;align-items: center;}
+}
+@media screen and (max-width: 667px) 
+{.line {width: 20px;margin: 0.3rem 0;}
+}
+@media screen and (max-width:667px)and (max-height:375px) {
+#nav-menu {
+position: fixed;
+right: 0;
+bottom: 0;
+padding:100px 100px 0 0 ;
+width: 80%;
+display: block;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+background: #282c30;
+transform: translateX(100%);
+transition: transform 1s ease;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+li a{margin: 15px 0;font-size: 18px;}}
+/* --------------------------------------------gorizont phone phone 8 plus------------------------- */
+		
+/* --------------------------------------------gorizont header------------------------- */
+		
+@media screen and (max-width:736px)and (max-height:414px)   {
+header{height: 75vh;}
+.logo{font-size: 20px;}
+.under-logo{font-size: 10px;}
+.navbar{height: 18vh;}
+.container{padding: 0 20px;}
+.line{width: 26px; margin: 0.4rem 0;}
+.icons-links{top: 29%;}
+.icons-links i{font-size: 11px;padding-top: 11px;}
+.box{width: 50%;height: 30%;padding-top: 0px;}
+.box-text{width: 100%;height: 100%;padding:20px 0 0px 0;}
+.title-box{font-size: 20px;width: 100%;text-align: center;}
+.box-text-3{font-size: 15px;text-align: center;}
+.image-box{height: 100vh;display: flex;justify-content: center;align-items: center;}
+}
+@media screen and (max-width: 667px) 
+{.line {width: 20px;margin: 0.3rem 0;}
+}
+                       
+@media screen and (max-width:736px)and (max-height:414px) {
+#nav-menu {
+position: fixed;
+right: 0;
+bottom: 0;
+padding:100px 100px 0 0 ;
+width: 80%;
+display: block;
+justify-content: center;
+align-items: center;
+justify-content: space-around;
+background: #282c30;
+transform: translateX(100%);
+transition: transform 1s ease;
+box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
+}
+li a{margin: 15px 0;font-size: 18px;} 
+}
+
+/* -------------------------------------------------Kakayata xuyna------------------------ */
+
+@media(max-width: 768px){
+    .row{flex-direction: column;	}
+    .box3{flex-direction: column;}
+    .card2{padding: 30px;	}
+    .image-box1{padding: 10px;}
+    .image-box2{padding: 10px;}
+    .image-box3{padding: 10px;}
+    }

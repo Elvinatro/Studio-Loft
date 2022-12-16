@@ -1,0 +1,79 @@
+
+
+@media screen and (max-width:1300px) {
+.images-cont{padding-top: 0;}
+.image-box1{width: 100%;margin:0px 20px 0 0;text-align: center;}
+.image1{width: 100px;height: 100px;}
+.image-box2{width: 100%;margin:0px 20px 0 0;text-align: center;}
+.image2{width: 100px;height: 100px;}
+.image-box3{width: 100%;margin:0px 20px 0 0;text-align: center;}
+.image3{width: 100px;height: 100px;}
+.ppp{line-height: 25px;}
+}
+
+@media screen and (max-width:1024px) {
+.images-cont{padding-top: 0;}
+.image-box1{width: 50%;margin:0px 20px 0 0;text-align: center;}
+.image1{width: 100px;height: 100px;}
+.image-box2{width: 50%;margin:0px 20px 0 0;text-align: center;}
+.image2{width: 100px;height: 100px;}
+.image-box3{width: 50%;margin:0px 20px 0 0;text-align: center;}
+.image3{width: 100px;height: 100px;}
+.ppp{line-height: 20px;font-size: 15px;}
+}
+
+/*---------------------------------- section-5 (540px)---------------- */
+@media screen and (max-width:540px) {
+.images-cont{padding-top: 0;}
+.image-box1{width: 100%;margin:50px 0 0 0;text-align: center;}
+.image1{width: 100px;height: 100px;}
+.image-box2{width: 100%;margin:70px 0 0 0;text-align: center;}
+.image2{width: 100px;height: 100px;}
+.image-box3{width: 100%;margin:70px 0 0 0;text-align: center;}
+.image3{width: 100px;height: 100px;}
+}
+
+@media screen and (max-width:320px) {
+	.images-cont{padding-top: 0;}
+	.image-box1{width: 100%;margin:50px 0 0 0;text-align: center;}
+	.image1{width: 80px;height: 80px;}
+	.image-box2{width: 100%;margin:70px 0 0 0;text-align: center;}
+	.image2{width: 80px;height: 80px;}
+	.image-box3{width: 100%;margin:70px 0 0 0;text-align: center;}
+	.image3{width: 80px;height: 80px;}
+	.service{font-size: 19px;}
+	.ppp{font-size: 15px;}
+	}
+/* ------------------------------------- gorizont Iphone-8-------------------------------------------- 
+
+/* ----------------------------------------section-5 gorizont------------------------------------------------ */
+		
+@media screen and (max-width:667px) and (max-height:375px){
+	.images-cont{padding-top: 150px;}
+	.image-box1{width: 50%;margin:50px 0 0 0;text-align: center;}
+	.image1{width: 100px;height: 100px;}
+	.image-box2{width: 50%;margin:50px 0 0 0;text-align: center;}
+	.image2{width: 100px;height: 100px;}
+	.image-box3{width: 50%;margin:50px 0 0 0;text-align: center;}
+	.image3{width: 100px;height: 100px;}
+	.service{font-size: 18px;}
+	.ppp{font-size: 16px;}
+	.row{padding: 0 0 100px 0;}
+	}
+
+/* --------------------------------------gorizont phone phone 8 plus------------------------
+
+/* ----------------------------------------section-5 gorizont------------------------------------------------ */
+@media screen and (max-width:736px)and (max-height:414px){
+.images-cont{padding-top: 150px;}
+.image-box1{width: 50%;margin:50px 0 0 0;text-align: center;}
+.image1{width: 100px;height: 100px;}
+.image-box2{width: 50%;margin:50px 0 0 0;text-align: center;}
+.image2{width: 100px;height: 100px;}
+.image-box3{width: 50%;margin:50px 0 0 0;text-align: center;}
+.image3{width: 100px;height: 100px;}
+.service{font-size: 18px;}
+.ppp{font-size: 16px;}
+.row{padding: 0 0 100px 0;}
+}
+

@@ -1,0 +1,178 @@
+
+/*-----------------------------------------------------All footer -------------------------------------- */
+
+
+@media screen and (max-width:620px) {
+    .footer{padding: 50px 0 0 0;width: 100%;height: 620px;background-color: #373f48;}
+    .box-footer{display: block;background-color: white;height: 385px;width: 100%;}
+    .txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+    .footer-txt-p{text-align: center;color: #7a838c;padding-top: 20px;font-size: 11px;width: 100%;}
+    .box-h3{width: 100%;padding: 20px 0 0 0;text-align: center;}
+    .box-h3 h3{margin-top: 15px;color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;font-size: 15px;}
+    .box-footer-links{display: flex;width: 90%;padding: 0;display: flex;justify-content: center;align-items: center;}
+    .box-footer-links i{font-size: 25px;color: #373f48;margin-left: 30px;}
+    .logo-box-footer{display: flex;justify-content: center;align-items: center;width:100%;padding: 50px 0 50px 0;}
+    .logo-box{width: 200px;}
+    }
+         
+    @media screen and (min-width:621px) {
+    .footer{padding: 50px 0 0 0;width: 100%;height: 620px;background-color: #373f48;}
+    .box-footer{display: block;background-color: white;height: 385px;width: 100%;}
+    .txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+    .footer-txt-p{text-align: center;color: #7a838c;padding-top: 20px;font-size: 11px;width: 100%;}
+    .box-h3{width: 100%;padding: 20px 0 0 0;text-align: center;}
+    .box-h3 h3{margin-top: 15px;color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;font-size: 15px;}
+    .box-footer-links{display: flex;width: 90%;padding: 0;display: flex;justify-content: center;align-items: center;}
+    .box-footer-links i{font-size: 25px;color: #373f48;margin-left: 30px;}
+    .logo-box-footer{display: flex;justify-content: center;align-items: center;width:100%;padding: 50px 0 50px 0;}
+    .logo-box{width: 200px;}
+    }
+         
+    @media screen and (min-width:900px) {
+    .footer{padding: 100px 0 0 0;width: 100%;height: 610px;background-color: #373f48;}
+    .box-footer{display: flex;background-color: white;height: 250px;width: 100%;}
+    .txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+    .footer-txt-p{text-align: center;color: #7a838c;padding-top: 30px;font-size: 14px;width: 60%;}
+    .box-h3{width: 40%;padding: 75px 50px 0 50px;text-align: left;}
+    .box-h3 h3{margin-top: 15px;color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;}
+    .box-footer-links{display: flex;padding: 0px 100px 0 0px;width: 20%;}
+    .box-footer-links i{font-size: 18px;color: #373f48;margin-left: 30px;}
+    .logo-box-footer{display: flex;justify-content: center;align-items: center;}
+    .logo-box{width: 200px;}
+    }
+         
+    @media screen and (min-width:1000px) {
+    .footer{padding: 100px 0 0 0;width: 100%;height: 525px;background-color: #373f48;}
+    .box-footer{display: flex;background-color: white;height: 250px;width: 100%;}
+    .txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+    .footer-txt-p{text-align: center;color: #7a838c;padding-top: 30px;font-size: 14px;width: 60%;}
+    .box-h3{width: 40%;padding: 75px 0 0 0px;text-align: center;}
+    .box-h3 h3{margin-top: 15px;color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;}
+    .box-footer-links{display: flex;padding: 0px 0 0 0px;width: 30%;}
+    .box-footer-links i{font-size: 25px;color: #373f48;margin-left: 30px;}
+    .logo-box-footer{display: flex;justify-content: center;align-items: center;width:25%;}
+    .logo-box{width: 200px;}
+    }
+
+/*----------------------------------@media(540px) PHONE-------------------------------------- */
+
+
+
+/* ------------------------------------- gorizont Iphone-8-------------------------------------------- */
+
+/* ----------------------------------------footer gorizont------------------------------------------*/
+		
+@media screen and (max-width:667px) and (max-height:375px){
+	.footer{
+	padding: 50px 0 0 0;
+	width: 100%;
+	height: 560px;
+	background-color: #373f48;
+	}
+	.box-footer{
+	display: block;
+	background-color: white;
+	height: 350px;
+	width: 100%;
+	}
+	.txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+	.footer-txt-p{text-align: center;color: #7a838c;padding-top: 20px;font-size: 11px;width: 100%;}
+	.box-h3{width: 100%;padding: 20px 0 0 0;text-align: center;}
+	.box-h3 h3{margin-top: 15px;color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;font-size: 15px;}
+	.box-footer-links{display: flex;width: 100%;padding: 0;display: flex;justify-content: center;align-items: center;}
+	.box-footer-links i{font-size: 25px;color: #373f48;margin-left: 30px;}
+	.logo-box-footer{display: flex;justify-content: center;align-items: center;width:100%;padding: 50px 0 50px 0;}
+	.logo-box{width: 200px;}
+	}
+/* --------------------------------------------gorizont phone phone 8 plus------------------------
+
+/* ----------------------------------------footer gorizont------------------------------------------*/
+                         
+@media screen and (max-width:736px)and (max-height:414px){
+.footer{
+padding: 50px 0 0 0;
+width: 100%;
+height: 520px;
+background-color: #373f48;
+}
+.box-footer{
+display: block;
+background-color: white;
+height: 350px;
+width: 100%;
+}
+.txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+.footer-txt-p{text-align: center;color: #7a838c;padding-top: 20px;font-size: 11px;width: 100%;}
+.box-h3{width: 100%;padding: 20px 0 0 0;text-align: center;}
+.box-h3 h3{margin-top: 15px;color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;font-size: 15px;}
+.box-footer-links{display: flex;width: 100%;padding: 0;display: flex;justify-content: center;align-items: center;}
+.box-footer-links i{font-size: 25px;color: #373f48;margin-left: 30px;}
+.logo-box-footer{display: flex;justify-content: center;align-items: center;width:100%;padding: 50px 0 50px 0;}
+.logo-box{width: 200px;}
+}
+
+
+
+
+@media screen and (max-width:375px) {
+    .footer{padding: 50px 0 0 0;width: 100%;height: 610px;background-color: #373f48;}
+    .box-footer{display: block;background-color: white;height: 340px;width: 100%;}
+    .txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+    .footer-txt-p{text-align: center;color: #7a838c;padding-top: 20px;font-size: 11px;width: 100%;}
+    .box-h3{width: 100%;padding: 20px 0 0 0;text-align: center;}
+    .box-h3 h3{color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;font-size: 13px;}
+    .box-footer-links{display: flex;width: 90%;padding: 0;display: flex;justify-content: center;align-items: center;}
+    .box-footer-links i{font-size: 16px;color: #373f48;margin-left: 30px;}
+    .logo-box-footer{display: flex;justify-content: center;align-items: center;width:100%;padding: 50px 0 50px 0;}
+    .logo-box{width: 150px;}
+    }
+
+@media screen and (max-width:320px) {
+    .footer{padding: 50px 0 0 0;width: 100%;height: 610px;background-color: #373f48;}
+    .box-footer{display: block;background-color: white;height: 340px;width: 100%;}
+    .txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+    .footer-txt-p{text-align: center;color: #7a838c;padding-top: 20px;font-size: 11px;width: 100%;}
+    .box-h3{width: 100%;padding: 20px 0 0 0;text-align: center;}
+    .box-h3 h3{color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;font-size: 13px;}
+    .box-footer-links{display: flex;width: 90%;padding: 0;display: flex;justify-content: center;align-items: center;}
+    .box-footer-links i{font-size: 16px;color: #373f48;margin-left: 30px;}
+    .logo-box-footer{display: flex;justify-content: center;align-items: center;width:100%;padding: 50px 0 50px 0;}
+    .logo-box{width: 150px;}
+    }
+    @media screen and (max-width:568px)and (max-height:320px){
+    .footer{padding: 50px 0 0 0;width: 100%;height: 560px;background-color: #373f48;}
+    .box-footer{display: block;background-color: white;height: 355px;width: 100%;}
+    .txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+    .footer-txt-p{text-align: center;color: #7a838c;padding-top: 20px;font-size: 11px;width: 100%;}
+    .box-h3{width: 100%;padding: 20px 0 0 0;text-align: center;}
+    .box-h3 h3{color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;font-size: 13px;}
+    .box-footer-links{display: flex;width: 90%;padding: 0;display: flex;justify-content: center;align-items: center;}
+    .box-footer-links i{font-size: 19px;color: #373f48;margin-left: 30px;}
+    .logo-box-footer{display: flex;justify-content: center;align-items: center;width:100%;padding: 50px 0 50px 0;}
+    .logo-box{width: 150px;}
+        }
+
+    @media screen and (max-width:667px)and (max-height:375px){
+    .footer{padding: 50px 0 0 0;width: 100%;height: 560px;background-color: #373f48;}
+    .box-footer{display: block;background-color: white;height: 355px;width: 100%;}
+    .txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+    .footer-txt-p{text-align: center;color: #7a838c;padding-top: 20px;font-size: 11px;width: 100%;}
+    .box-h3{width: 100%;padding: 20px 0 0 0;text-align: center;}
+    .box-h3 h3{color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;font-size: 13px;}
+    .box-footer-links{display: flex;width: 90%;padding: 0;display: flex;justify-content: center;align-items: center;}
+    .box-footer-links i{font-size: 19px;color: #373f48;margin-left: 30px;}
+    .logo-box-footer{display: flex;justify-content: center;align-items: center;width:100%;padding: 50px 0 50px 0;}
+    .logo-box{width: 150px;}
+     }
+     @media screen and (max-width:736px)and (max-height:414px){
+        .footer{padding: 50px 0 0 0;width: 100%;height: 560px;background-color: #373f48;}
+        .box-footer{display: block;background-color: white;height: 355px;width: 100%;}
+        .txt-footer-p{width: 100%;display: flex;justify-content: center;align-items: center;}
+        .footer-txt-p{text-align: center;color: #7a838c;padding-top: 20px;font-size: 11px;width: 100%;}
+        .box-h3{width: 100%;padding: 20px 0 0 0;text-align: center;}
+        .box-h3 h3{color: #373f48;font-family: 'Open Sans', sans-serif;letter-spacing: 2px;font-size: 13px;}
+        .box-footer-links{display: flex;width: 90%;padding: 0;display: flex;justify-content: center;align-items: center;}
+        .box-footer-links i{font-size: 19px;color: #373f48;margin-left: 30px;}
+        .logo-box-footer{display: flex;justify-content: center;align-items: center;width:100%;padding: 50px 0 50px 0;}
+        .logo-box{width: 150px;}
+         }
